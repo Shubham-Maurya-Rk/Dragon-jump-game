@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="gameover">
+        <div class="gameover-div">Game Over <br><span id="display_score"></span></div>
+        <div class="gameover-div start-div" style="display: block;"><span  id="start">Start ></span><br><p>Press space to start..</p></div>
+      </div>
+        <div class="score">Your score: <input type="text" id="score" disabled value="0"></div>
+        <div class="villain"></div>
+        <div class="dino"></div>
+        <audio src="./super-mario-bros-4293.mp3" id="music" loop></audio>
+        <audio src="./mixkit-arcade-retro-game-over-213.wav" id="music2"></audio>
+    </div>
+    <div class="level">Completed! level 1</div>
+    <script src="./index.js"></script>
+</body>
+</html>
